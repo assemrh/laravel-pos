@@ -1,15 +1,15 @@
 {
-	"name": "mews/laravel-pos",
+	"name": "Kaanyakar/laravel-pos",
 	"type": "package",
 	"description": "Laravel 5 Pos Package",
 	"keywords": ["laravel5 pos", "laravel5 sanal pos"],
-	"homepage": "https://github.com/mewebstudio/laravel-pos",
+	"homepage": "https://github.com/Kaanyakar/laravel-pos",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Muharrem ERİN",
-			"email": "me@mewebstudio.com",
-			"homepage": "https://github.com/mewebstudio",
+			"name": "Siparislio",
+			"email": "me@Kaanyakar.com",
+			"homepage": "https://github.com/Kaanyakar",
 			"role": "Developer"
 		}
 	],
@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mews\\LaravelPos\\": "src/"
+			"Kaanyakar\\LaravelPos\\": "src/"
 		},
 		"files": [
 			"src/helpers.php"

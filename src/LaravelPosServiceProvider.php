@@ -1,12 +1,12 @@
 <?php
 
-namespace Mews\LaravelPos;
+namespace Kaanyakar\LaravelPos;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class LaravelPosServiceProvider
- * @package Mews\LaravelPos
+ * @package Kaanyakar\LaravelPos
  */
 class LaravelPosServiceProvider extends ServiceProvider {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mews\LaravelPos;
+namespace Kaanyakar\LaravelPos;
 
 use Illuminate\Config\Repository;
-use Mews\LaravelPos\Factory\AccountFactory;
-use Mews\LaravelPos\Factory\CardFactory;
+use Kaanyakar\LaravelPos\Factory\AccountFactory;
+use Kaanyakar\LaravelPos\Factory\CardFactory;
 use Mews\Pos\Exceptions\BankClassNullException;
 use Mews\Pos\Exceptions\BankNotFoundException;
 use Mews\Pos\Factory\PosFactory;
@@ -12,7 +12,7 @@ use Mews\Pos\PosInterface;
 
 /**
  * Class LaravelPos
- * @package Mews\LaravelPos
+ * @package Kaanyakar\LaravelPos
  */
 class LaravelPos
 {

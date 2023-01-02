@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mews\LaravelPos\Factory;
+namespace Kaanyakar\LaravelPos\Factory;
 
 
 use Mews\Pos\Entity\Account\EstPosAccount;

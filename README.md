@@ -25,7 +25,7 @@ $ composer update
 ```php
 'providers' => [
     // ...
-    Mews\LaravelPos\LaravelPosServiceProvider::class,
+    Kaanyakar\LaravelPos\LaravelPosServiceProvider::class,
 ]
 ```
 
@@ -33,19 +33,19 @@ $ composer update
 ```php
 'aliases' => [
     // ...
-    'LaravelPos' => Mews\LaravelPos\Facades\LaravelPos::class,
+    'LaravelPos' => Kaanyakar\LaravelPos\Facades\LaravelPos::class,
 ]
 ```
 
 Konsolda, proje ana dizinindeyken aşağıdaki komut girilir:
 ```sh
-$ php artisan vendor:publish --provider="Mews\LaravelPos\LaravelPosServiceProvider"
+$ php artisan vendor:publish --provider="Kaanyakar\LaravelPos\LaravelPosServiceProvider"
 ```
 
 ### Kullanım
 ```php
 
-$pos = \Mews\LaravelPos\Facades\LaravelPos::instance();
+$pos = \Kaanyakar\LaravelPos\Facades\LaravelPos::instance();
 
 $pos->account([
     'bank'          => 'akbank',
