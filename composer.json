@@ -3,7 +3,7 @@
 	"type": "package",
 	"description": "Laravel 5 Pos Package",
 	"keywords": ["laravel5 pos", "laravel5 sanal pos"],
-	"homepage": "https://github.com/Kaanyakar/laravel-pos",
+	"homepage": "https://github.com/kaanyakar/laravel-pos",
 	"license": "MIT",
 	"authors": [
 		{
