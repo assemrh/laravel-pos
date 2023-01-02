@@ -14,13 +14,13 @@
 		}
 	],
 	"require": {
-		"php": ">=7.1.3",
-		"illuminate/config": "~5.7|~5.8|^6.0|^7.0|^8.0",
-		"mews/pos": "^0.4.3"
+		"php": "^8.0.2",
+		"illuminate/config": "*",
+		"mews/pos": "*"
 	},
 	"require-dev": {
-		"orchestra/testbench": "~3.4.0|~3.5.0",
-		"phpunit/phpunit": "5.*|^7.9"
+		"orchestra/testbench": "*",
+		"phpunit/phpunit": "*"
 	},
 	"autoload": {
 		"psr-4": {
