@@ -15,8 +15,8 @@
 	],
 	"require": {
 		"php": "^8.0.2",
-		"illuminate/config": "*",
-		"mews/pos": "*"
+		"mews/pos": "0.10.4",
+		"illuminate/config": "^9.46"
 	},
 	"require-dev": {
 		"orchestra/testbench": "*",
